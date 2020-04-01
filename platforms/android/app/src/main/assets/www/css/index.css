@@ -13,7 +13,7 @@ body{
     color:#FFB85F;
 }
 #t{
-    border-bottom-style: solid; ;
+    border-bottom-style: soli#; ;
     border-bottom-width: 10%;
     border-color: #FCF4D9;
 }
@@ -25,6 +25,19 @@ body{
     width:30%;
     border-radius:2px;
     font-size: 150%;
+}
+#restart{
+    margin-top: 20%;
+    background-color:#FF7A5A;
+    color:#FCF4D9;
+    border:2px solid #FF7A5A;
+    width:30%;
+    border-radius:2px;
+    font-size: 150%;
+    text-decoration:none;
+    text-align: center;
+    margin: auto;
+    width: 50%;
 }
 #myinp{
     color:#FFB85F;

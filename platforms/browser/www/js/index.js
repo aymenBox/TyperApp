@@ -534,6 +534,8 @@ var app = {
             "sec"+"<br>"+"your speed is : "+Math.round(tar.length/(time-counter))+"characters/sec";
             
             document.getElementById("myinp").disabled=true;
+            document.getElementById("bt").style.display = "none";
+            document.getElementById("restart").style.display = "block";
         }
         /*play function used to start the counter and put the curser in the input fild */
         function play(){

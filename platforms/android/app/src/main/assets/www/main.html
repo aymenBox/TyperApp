@@ -35,13 +35,19 @@
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
         <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="css/load.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
         <title>Hello World</title>
     </head>
     <body>
-        <img src="img/company.png" id="img">
         <div id="cont">
-            <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+    	<div id="tmr" name="tmr">0</div>
+    	<div type="text" id="t">text to be written</div>
+    	<br>
+    	<input placeholder="start typing here" type="text" name="myinp" id="myinp"><br><br>
+        <div id="result"></div><br>
+   		<button id="bt">Start</button><br>
+        <a hidden href="main.html" id="restart">Try Again</a>
         </div>
+   		<script type="text/javascript" src="js/index.js"></script>
     </body>
 </html>
